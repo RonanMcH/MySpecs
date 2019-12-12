@@ -25,5 +25,9 @@ Pod::Spec.new do |s|
   s.dependency 'ZendeskAltSupportProvidersSDK'
 
   s.dependency 'ZendeskAltCoreSDK'
+  s.dependency 'ZendeskAltSupportSDK'
+  s.dependency 'ZendeskAltAnswerBotProvidersSDK'
+  s.dependency 'ZendeskAltAnswerBotSDK'
+  s.dependency 'ZendeskAltCommonUISDK'
 
 end
