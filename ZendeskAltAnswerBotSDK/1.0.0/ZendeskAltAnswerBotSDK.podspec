@@ -22,4 +22,7 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)', 'CLANG_ENABLE_MODULES' => 'YES', 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'YES' }
   s.source = { :http => 'https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/5.1.2/AnswerBotSDK/0.0.1/AnswerBotSDK.zip' }
   s.vendored_frameworks = 'AnswerBotSDK.framework'
+  s.dependency 'ZendeskAltAnswerBotProvidersSDK'
+  s.dependency 'ZendeskAltSupportProvidersSDK', '~> 1.0.0'
+  s.dependency 'ZendeskAltCommonUISDK'
 end
