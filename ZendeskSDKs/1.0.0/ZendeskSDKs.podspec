@@ -21,13 +21,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.1'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)', 'CLANG_ENABLE_MODULES' => 'YES', 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'YES' }
   s.source = { :git => 'https://github.com/RonanMcH/MySpecs.git'}
-
-  s.dependency 'ZendeskAltSupportProvidersSDK'
-
-  s.dependency 'ZendeskAltCoreSDK'
   s.dependency 'ZendeskAltSupportSDK'
-  s.dependency 'ZendeskAltAnswerBotProvidersSDK'
   s.dependency 'ZendeskAltAnswerBotSDK'
-  s.dependency 'ZendeskAltCommonUISDK'
 
 end
